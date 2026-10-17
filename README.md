@@ -77,5 +77,42 @@ Make sure you have a C/C++ compiler installed on your system (e.g., `GCC`, `Clan
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Karim-ABT-13/Bank-Management-System.git](https://github.com/Karim-ABT-13/Bank-Management-System.git)
-cd Bank-Management-System
+cd Bank-Management-Systemgcc main.c -o bank_system
+# Or if using C++:
+g++ main.cpp -o bank_system
+./bank_system
+bank_system.exe
+🕹️ How to Use
+​Launch the application via your terminal/console.
+​Select your role from the main menu:
+​Customer Portal: Log into your account or register a new one to perform deposits, withdrawals, or check balances.
+​Admin Portal: Enter administrative credentials to manage user profiles and oversee system analytics.
+​Follow the interactive on-screen prompts to navigate through options safely.
+​📁 File StructureBank-Management-System/
+│
+├── main.c / main.cpp      # Core program entry and menu control loops
+├── functions.h            # Header file containing function prototypes
+├── data/                  # Directory for persistent storage (text/dat files)
+│   ├── accounts.txt       # Stores customer account details
+│   └── transactions.txt   # Stores logs of deposits and withdrawals
+└── README.md              # Project documentation
+🔮 Future Enhancements
+​[ ] Integration with a lightweight SQL database (like SQLite) for enhanced data security.
+​[ ] Implementation of password encryption for user accounts.
+​[ ] Support for transferring funds between different accounts.
+​[ ] Graphical User Interface (GUI) development using Qt or web technologies.
+​🤝 Contributing
+​Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+​Fork the Project
+​Create your Feature Branch (git checkout -b feature/AmazingFeature)
+​Commit your Changes (git commit -m 'Add some AmazingFeature')
+​Push to the Branch (git origin push feature/AmazingFeature)
+​Open a Pull Request
+​👤 Author
+​Karim ABT
+​GitHub: @Karim-ABT-13
+​<div align="center">
+<sub>Built with ❤️ and dedication. Star ⭐ this repo if you found it useful!</sub>
+</div>
+EOF
 
