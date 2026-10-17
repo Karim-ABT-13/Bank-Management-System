@@ -77,3 +77,5 @@ Make sure you have a C/C++ compiler installed on your system (e.g., `GCC`, `Clan
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Karim-ABT-13/Bank-Management-System.git](https://github.com/Karim-ABT-13/Bank-Management-System.git)
+cd Bank-Management-System
+
